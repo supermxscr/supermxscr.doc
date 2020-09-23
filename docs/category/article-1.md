@@ -2,7 +2,7 @@
 title: 移动端选择图片旋转
 ---
 
-# 移动端选择图片旋转
+## 移动端选择图片旋转
 
 使用 exif.js 解决移动端相机拍照图片旋转
 
@@ -130,4 +130,10 @@ const rotateImg = (imgFile) => {
   });
 }
 export default rotateImg
+```
+## Blob 转 File
+
+```js
+  //blob => file
+  let files = new window.File([this.blob], file.name, {type: file.type})
 ```

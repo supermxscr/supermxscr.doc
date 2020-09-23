@@ -1,11 +1,9 @@
 module.exports = {
-  theme:"antdocs",
+  theme: "antdocs",
   title: "superM",
   description: "Don't say so much.",
   base: "/",
-  head: [
-    ["link",{ rel: "icon",href: "/assets/logo.png" }]
-  ],
+  head: [["link", { rel: "icon", href: "/assets/logo.png" }]],
   markdown: {
     lineNumbers: false,
   },
@@ -16,5 +14,7 @@ module.exports = {
     lastUpdated: "Last Updated",
     // repo: "https://github.com/zpfz/vuepress-creator",
     editLinks: false,
+    backToTop: true,
+    sidebarDepth: 2,//左侧导航显示的层级
   },
-};
+}

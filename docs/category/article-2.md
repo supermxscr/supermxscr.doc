@@ -1,10 +1,17 @@
 ---
-title: Blob 转 File
+title: xiao
 ---
 
-# Blob 转 File
+## 遮罩内滚动 下层元素 不滚动 
 
-```js
-  //blob => file
-  let files = new window.File([this.blob], file.name, {type: file.type})
+**<font size=4 color='#36CFC9'>解决方案</font>**
+
+```css
+// 遮罩显示时下层元素 加一下样式
+.fixedBody {
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+}
 ```
